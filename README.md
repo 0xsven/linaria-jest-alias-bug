@@ -1,6 +1,5 @@
-npm i
-
-npm run test
+- npm i
+- npm run test
 
 ### Expected result:
 
