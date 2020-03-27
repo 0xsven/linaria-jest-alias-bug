@@ -14,12 +14,6 @@ module.exports = withCSS({
         }
       ]
     });
-
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      layout: path.resolve(__dirname, "layout"),
-      components: path.resolve(__dirname, "components")
-    };
     return config;
   }
 });
